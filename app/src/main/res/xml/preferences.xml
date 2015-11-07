@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        <!-- TODO Set the title for this category-->
+        >
+
+        <EditTextPreference
+            android:title="User name"
+            android:key="username"/>
+
+        <MultiSelectListPreference
+            android:title="Services"
+            android:key="services"
+            android:entries="@array/services"
+            android:entryValues="@array/services"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="App Settings">
+
+        <!--TODO add the switch preference for notifications-->
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
